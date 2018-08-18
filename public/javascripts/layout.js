@@ -1,12 +1,12 @@
-var HelloWorld = React.createClass({
+const HomePage = React.createClass({
   render: function() {
-    return (
+    return(
       <div>
-        <h1>Hello {this.props.name}!</h1>
+        <h1>Hello</h1>
       </div>
-    );
+    )
   }
 });
 
 const domContainer = document.getElementById('layout')
-React.render(<HelloWorld name="Sandy"/>, domContainer);
+React.render(<HomePage />, domContainer);
